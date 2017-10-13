@@ -1,4 +1,6 @@
-@-moz-document domain("secure.php.net") {
+@-moz-document domain("secure.php.net"), domain("golang.org") {
   a:visited { color: #ae56ff !important; }
+  /* for golang.org */
+  div#menu > a:visited { color: silver !important; }
 }
 /* vim:se fdm=marker fmr={,}: */
