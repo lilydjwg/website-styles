@@ -1,0 +1,9 @@
+@-moz-document domain("zhuanlan.zhihu.com") {
+
+/* don't occupy too much vertical space */
+.Sticky.is-fixed {
+  position: static !important;
+}
+
+}
+/* vim:se fdm=marker fmr={,}: */
