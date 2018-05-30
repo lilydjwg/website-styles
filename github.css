@@ -17,7 +17,7 @@
 [role=banner] .header-nav-link,
 [role=banner] .header-navlink,
 [role=banner] .HeaderNavlink,
-[role=banner] div.header-navlink a {
+[role=banner] div.HeaderNavlink a {
   color: #555 !important;
 }
 
@@ -27,8 +27,8 @@
 [role=banner] .header-navlink:focus,
 [role=banner] .HeaderNavlink:hover,
 [role=banner] .HeaderNavlink:focus,
-[role=banner] div.header-navlink a:hover,
-[role=banner] div.header-navlink a:focus {
+[role=banner] div.HeaderNavlink a:hover,
+[role=banner] div.HeaderNavlink a:focus {
   color: #4078c0 !important;
 }
 
