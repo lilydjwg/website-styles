@@ -106,5 +106,9 @@
   color: #999 !important;/*AAA*/
 }
 
+[role=banner] .header-search-key-slash {
+  filter: invert(100%) brightness(120%) opacity(50%)
+}
+
 }
 /* vim:se fdm=marker fmr={,}: */
