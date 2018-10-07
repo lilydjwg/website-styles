@@ -111,7 +111,7 @@
 }
 
 /* align the header to the content as before */
-header + div {
+header > div {
   max-width: 1022px;
   margin: auto;
 }
