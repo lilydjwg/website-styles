@@ -6,4 +6,12 @@
 }
 
 }
+@-moz-document domain("zhihu.com") {
+
+/* fix bold Chinese not bold */
+.ztext b {
+  font-synthesis: weight style !important;
+}
+
+}
 /* vim:se fdm=marker fmr={,}: */
