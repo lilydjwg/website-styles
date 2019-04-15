@@ -1,5 +1,5 @@
 @-moz-document domain("github.com"), domain("gist.github.com") {
-[role=banner] {
+[role=banner], body > div:first-of-type {
   border-bottom: 1px solid #E5E5E5 !important;
   background-color: #F5F5F5 !important;
 }
@@ -111,7 +111,7 @@
 }
 
 /* align the header to the content as before */
-header > div {
+[role=banner] {
   max-width: 1022px;
   margin: auto;
 }
