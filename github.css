@@ -1,4 +1,4 @@
-@-moz-document domain("github.com"), domain("gist.github.com") {
+@-moz-document domain("github.com"), regexp("^https://github\\.com/.*") {
 [role=banner], body > div:first-of-type {
   border-bottom: 1px solid #E5E5E5 !important;
   background-color: #F5F5F5 !important;
