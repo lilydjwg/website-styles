@@ -117,7 +117,16 @@
 }
 
 [role=banner] .Header-link {
-    color: #000000 !important;
+  color: #000000 !important;
+}
+
+.application-main, .footer {
+  max-width: 1022px;
+  margin: auto;
+}
+
+body {
+  font-family: sans-serif;
 }
 
 }
