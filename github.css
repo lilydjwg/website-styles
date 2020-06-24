@@ -129,7 +129,7 @@ body {
   font-family: sans-serif;
 }
 
-.Box-header--blue {
+.Box-header--blue, .Box-body {
   padding-top: .5em;
   padding-bottom: .5em;
 }
