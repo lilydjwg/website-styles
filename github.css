@@ -129,5 +129,18 @@ body {
   font-family: sans-serif;
 }
 
+.Box-header--blue {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.pagehead {
+  margin-bottom: 16px !important;
+}
+
+.avatar, .avatar-user, .rounded-1 {
+  border-radius: 0 !important;
+}
+
 }
 /* vim:se fdm=marker fmr={,}: */
