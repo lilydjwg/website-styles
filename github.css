@@ -184,5 +184,15 @@ h2 ~ .Details--on .Details-content--shown, h2 ~ .Details:not(.Details--on) .Deta
     background-color: #f1f8ff !important;
 }
 
+/* show all nav items, not first three */
+nav > ul > li > a {
+    visibility: visible !important;
+}
+nav > ul  {
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #eeeeee transparent;
+}
+
 }
 /* vim:se fdm=marker fmr={,}: */
