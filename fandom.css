@@ -43,7 +43,6 @@
 .toc ul li a {
 	border-radius: 0px;
 	padding: 0;
-	transition-property: none;
 	color: var(--theme-link-color);
 }
 .toc ul li a:hover {
@@ -51,13 +50,21 @@
 }
 .toc ul li a:hover > .tocnumber {
 	color: rgba(var(--theme-page-text-color--rgb),.6);
-	transition-property: none;
 }
 .toc ul li a:hover > .toctext {
-	color: var(--theme-link-color--hover);
+	text-decoration: underline;
 }
 .toc .toctitle {
 	padding: 6px;
+}
+.toctogglespan .toctogglelabel, .wds-link, a, ul.gallery.mw-gallery-slideshow .gallerycarousel > div .mw-gallery-slideshow-caption a, ul.gallery.mw-gallery-slideshow li.gallerybox .gallerytext a {
+	transition: none;
+}
+.toctogglespan .toctogglelabel:active, .toctogglespan .toctogglelabel:focus, .toctogglespan .toctogglelabel:hover, .wds-link:active, .wds-link:focus, .wds-link:hover, a:active, a:focus, a:hover, ul.gallery.mw-gallery-slideshow .gallerycarousel > div .mw-gallery-slideshow-caption a:active, ul.gallery.mw-gallery-slideshow .gallerycarousel > div .mw-gallery-slideshow-caption a:focus, ul.gallery.mw-gallery-slideshow .gallerycarousel > div .mw-gallery-slideshow-caption a:hover, ul.gallery.mw-gallery-slideshow li.gallerybox .gallerytext a:active, ul.gallery.mw-gallery-slideshow li.gallerybox .gallerytext a:focus, ul.gallery.mw-gallery-slideshow li.gallerybox .gallerytext a:hover {
+	color: var(--theme-link-color);
+}
+a:visited {
+	color: #0b0080;
 }
 }
 /* vim:se fdm=marker fmr={,}: */
