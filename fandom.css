@@ -27,6 +27,9 @@
 .page-content p {
 	margin: 0.5em 0;
 }
+.mw-parser-output > ul > li:first-of-type {
+	margin-top: 1.5em;
+}
 .page-content {
 	font-size: 0.875em;
 }
