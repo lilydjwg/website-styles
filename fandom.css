@@ -15,6 +15,9 @@
 	margin-left: 0;
 	width: 100%;
 }
+.resizable-container {
+	max-width: 9999999px;
+}
 
 #WikiaBar {
 	display: none;
@@ -68,6 +71,19 @@
 }
 a:visited {
 	color: #0b0080;
+}
+
+/* use preferred fonts */
+.page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6 {
+	font-family: sans-serif;
+	line-height: 1.25;
+	overflow-wrap: break-word;
+}
+body {
+	font-family: sans-serif;
+}
+body.skin-fandomdesktop {
+	font-family: sans-serif;
 }
 }
 /* vim:se fdm=marker fmr={,}: */
