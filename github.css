@@ -108,7 +108,7 @@
 
 /* align the header to the content as before */
 [role=banner] {
-  max-width: 1022px;
+  max-width: 1280px;
   margin: auto;
 }
 
@@ -117,7 +117,7 @@
 }
 
 .application-main, .footer {
-  max-width: 1022px;
+  max-width: 1280px;
   margin: auto;
 }
 
@@ -135,7 +135,7 @@ code, pre, tt, .blob-code-inner, .blob-num {
 
 .Box-header--blue, .Box-body {
   padding-top: .5em;
-	padding-bottom: .5em;
+  padding-bottom: .5em;
 }
 
 .pagehead {
@@ -168,10 +168,10 @@ h2 ~ .Details--on .Details-content--shown, h2 ~ .Details:not(.Details--on) .Deta
 
 /* top bar too much padding */
 .Box-header {
-	padding-top: 7px;
+  padding-top: 7px;
   padding-bottom: 7px;
-	border-top-left-radius: 2px;
-	border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 
 /* narrower between repo name and "Code" "Issues" tabs */
