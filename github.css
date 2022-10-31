@@ -1,4 +1,6 @@
 @-moz-document domain("gist.github.com"), regexp("^https://github\\.com/.*") {
+@media screen and (prefers-color-scheme: light) {
+
 [role=banner], body > div:first-of-type {
   border-bottom: 1px solid #E5E5E5 !important;
   background-color: #F5F5F5 !important;
@@ -47,24 +49,12 @@
   fill: #555 !important;
 }
 
-[role=banner] .header-search {
-  font-size: 14px !important;
-}
-
-[role=banner] .form-control.header-search-wrapper {
-  line-height: 21px !important;
-}
-
 [role=banner] .header-search-scope {
-  font-size: 12px !important;
-  line-height: 20px !important;
   color: #767676 !important;
   border-right-color: #EEE !important;
 }
 
 [role=banner] .header-search-wrapper {
-  min-height: 0 !important;
-  font-size: 14px !important;
   color: #333 !important;
   background-color: #FFF !important;
   border: 1px solid #DDD !important;
@@ -84,8 +74,6 @@
 }
 
 [role=banner] .header-search-input {
-  min-height: 26px !important;
-  font-size: 14px !important;
   color: #333 !important;
 }
 
@@ -106,14 +94,56 @@
   filter: invert(100%) brightness(120%) opacity(50%)
 }
 
+[role=banner] .Header-link {
+  color: #000000 !important;
+}
+
+/* README.md filename background */
+.Box .bg-white {
+  background-color: #f1f8ff !important;
+}
+
+nav > ul  {
+  scrollbar-color: #eeeeee transparent;
+}
+
+}
+
+@media screen and (prefers-color-scheme: dark) {
+
+nav > ul  {
+  scrollbar-color: #111111 transparent;
+}
+
+}
+
+[role=banner] .header-search {
+  font-size: 14px !important;
+}
+
+[role=banner] .form-control.header-search-wrapper {
+  line-height: 21px !important;
+}
+
+[role=banner] .header-search-scope {
+  font-size: 12px !important;
+  line-height: 20px !important;
+}
+
+[role=banner] .header-search-wrapper {
+  min-height: 0 !important;
+  font-size: 14px !important;
+}
+
+[role=banner] .header-search-input {
+  min-height: 26px !important;
+  font-size: 14px !important;
+}
+
 /* align the header to the content as before */
 [role=banner] {
   max-width: 1280px;
   margin: auto;
-}
-
-[role=banner] .Header-link {
-  color: #000000 !important;
 }
 
 .application-main, .footer {
@@ -126,11 +156,11 @@ body {
 }
 
 code, pre, tt, .blob-code-inner, .blob-num {
-    font-family: monospace;
+  font-family: monospace;
 }
 
 .Box-header .text-mono{
-    font-family: monospace !important;
+  font-family: monospace !important;
 }
 
 .Box-header--blue, .Box-body {
@@ -139,31 +169,31 @@ code, pre, tt, .blob-code-inner, .blob-num {
 }
 
 .pagehead {
-	margin-bottom: 16px !important;
+  margin-bottom: 16px !important;
 }
 
 .avatar, .avatar-user, .rounded-1 {
-	border-radius: 0 !important;
+  border-radius: 0 !important;
 }
 
 /* only slightly round buttons */
 .btn {
-    border-radius: 2px;
+  border-radius: 2px;
 }
 
 /* last changed date is longer than pre-defined 100px when using custom fonts. */
 .text-right[role="gridcell"] {
-    width: 120px !important;
+  width: 120px !important;
 }
 
 /* do not hide commit info */
 h2 ~ .Details--on .Details-content--shown, h2 ~ .Details:not(.Details--on) .Details-content--hidden {
-    display: block !important;
+  display: block !important;
 }
 
 /* hid the toggle for commit info*/
 .Box-header > div > div > .hidden-text-expander {
-    display: none !important;
+  display: none !important;
 }
 
 /* top bar too much padding */
@@ -176,22 +206,17 @@ h2 ~ .Details--on .Details-content--shown, h2 ~ .Details:not(.Details--on) .Deta
 
 /* narrower between repo name and "Code" "Issues" tabs */
 .repohead > .mb-3 {
-    margin-bottom: 2px !important;
-}
-
-/* README.md filename background */
-.Box .bg-white {
-    background-color: #f1f8ff !important;
+  margin-bottom: 2px !important;
 }
 
 /* show all nav items, not first three */
 nav > ul > li > a {
-    visibility: visible !important;
+  visibility: visible !important;
 }
 nav > ul  {
-    overflow: auto;
-    scrollbar-width: thin;
-    scrollbar-color: #eeeeee transparent;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
 }
 
 }
