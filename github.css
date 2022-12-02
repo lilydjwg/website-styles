@@ -1,7 +1,7 @@
 @-moz-document domain("gist.github.com"), regexp("^https://github\\.com/.*") {
 @media screen and (prefers-color-scheme: light) {
 
-[role=banner], body > div:first-of-type {
+[role=banner], body > div:first-of-type > div:first-of-type {
   border-bottom: 1px solid #E5E5E5 !important;
   background-color: #F5F5F5 !important;
 }
