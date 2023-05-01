@@ -140,6 +140,16 @@ nav > ul  {
   font-size: 14px !important;
 }
 
+/* new search box as 2023-05-02 */
+.search-with-dialog {
+  background-color: #FFF;
+  border: 1px solid #DDD;
+}
+
+.header-search-button.placeholder {
+	color: rgba(3,3,3,.3);
+}
+
 /* align the header to the content as before */
 [role=banner] {
   max-width: 1280px;
