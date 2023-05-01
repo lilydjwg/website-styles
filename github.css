@@ -147,7 +147,11 @@ nav > ul  {
 }
 
 .header-search-button.placeholder {
-	color: rgba(3,3,3,.3);
+  color: rgba(3,3,3,.3);
+}
+
+.search-with-dialog:hover {
+  background-color: #eee;
 }
 
 /* align the header to the content as before */
