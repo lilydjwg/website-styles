@@ -235,4 +235,16 @@ nav > ul  {
 }
 
 }
+
+@-moz-document url-prefix("https://github.com/copilot") {
+header.AppHeader {
+  max-width: unset;
+  margin: unset;
+}
+
+.application-main, .footer {
+  max-width: unset;
+  margin: unset;
+}
+}
 /* vim:se fdm=marker fmr={,}: */
