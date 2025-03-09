@@ -1,0 +1,22 @@
+a:link {
+  color: #0000ee;
+}
+a:active {
+  color: #ee0000;
+}
+a:visited {
+  color: #551a8b;
+}
+
+@media (prefers-color-scheme: dark) {
+  a:link {
+    color: #8c8cff;
+  }
+  a:active {
+    color: #ff6666;
+  }
+  a:visited {
+    color: #ffadff;
+  }
+}
+/* vim:se fdm=marker fmr={,}: */
