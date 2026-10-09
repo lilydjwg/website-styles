@@ -1,12 +1,7 @@
 @-moz-document domain("gist.github.com"), regexp("^https://github\\.com/.*") {
 /* align the header to the content as before */
-header.GlobalNav {
+header.GlobalNav, main {
   max-width: 1220px;
-  margin: auto;
-}
-
-.application-main, .footer {
-  max-width: 1280px;
   margin: auto;
 }
 
